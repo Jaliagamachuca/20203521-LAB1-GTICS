@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <style>
+    .navbar {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row1, .row2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .row1 input {
+      width: 300px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .row1 button, .row2 button {
+      padding: 8px 16px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .row1 button:hover, .row2 button:hover {
+      background-color: #0056b3;
+    }
+
+    .row1 button:last-child {
+      margin-right: 0;
+    }
+  </style>
+</head>
+<body>
+<div class="navbar">
+  <div class="row1">
+    <input type="text" placeholder="Encuesta de tus vuelos preferidos">
+    <button>Explorar</button>
+    <button>Mis vuelos</button>
+    <button>Iniciar Sesión</button>
+  </div>
+  <div class="row2">
+    <button>Vuelos</button>
+    <button>Paquetes</button>
+    <button>Hoteles</button>
+    <button>Autos</button>
+    <button>Seguros</button>
+    <button>Upgrade</button>
+    <button>Centro de Ayuda</button>
+  </div>
+</div>
+</body>
+</html>
